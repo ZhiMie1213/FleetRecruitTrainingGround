@@ -53,7 +53,7 @@ class Enemy():
         self.img = pygame.image.load('enemy/enemy_fighter.png')
         self.x = random.randint(-10, 850)
         self.y = random.randint(-10, 220)
-        self.step = 1.05
+        self.step = 0.75
 
     def reset(self):
         self.x = random.randint(-10, 850)
